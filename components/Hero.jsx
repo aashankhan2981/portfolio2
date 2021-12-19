@@ -4,31 +4,14 @@ import a from './svgs/recta.svg'
 import git from './svgs/rectgit.svg'
 import link from './svgs/rectlink.svg'
 import Containerhero from './Containerhero'
-import bg from "./svgs/bgres.svg"
-import { useEffect, useState } from 'react'
-
+import style from '../styles/Home.module.css'
 const Hero = ({refer,refer2}) => {
-    const [style1,setStyle] = useState({backgroundColor:"#D7D7D7"})
-    
-    useEffect(()=>{
-        window.addEventListener('resize',()=>{
-            if(window.innerWidth>768){
-                setStyle({backgroundColor:"#D7D7D7"})
-            }
-            else{
-                setStyle({
-                    backgroundImage:`url("./img/bg.png")`
-                })
-            }
-        })
-        
-    })
     
     return (
         <>
         
         <div className="flex   ">
-            <div className='md:w-1/2 w-full px-4 flex flex-col md:pb-0 pb-10  items-center ' style={style1}  >
+            <div className={`${style.back} md:w-1/2 md: w-full px-4 flex flex-col md:pb-0 pb-10 md: items-center `}   >
                 <img src="./img/ak.jpg" className='max-h-28  ' alt="logo" />
                 <h2 className='font-bold lg:text-2xl text-2xl md:text-lg mt-16 md:text-black text-white'>Hi, I am</h2>
                 <h2 className='font-bold lg:text-5xl text-4xl md:text-2xl eight:text-3xl mt-4 md:text-black text-white'>Aashan Khan</h2>
