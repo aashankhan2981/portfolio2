@@ -37,7 +37,6 @@ const Hero = ({refer,refer2,refer3,refer4}) => {
 
                 
             </div>
-            <div></div>
         </div>
        
         </>
