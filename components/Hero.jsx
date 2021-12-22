@@ -24,7 +24,7 @@ const Hero = ({refer,refer2,refer3,refer4}) => {
                 </div>
             </div>
             <div className=' hidden md:flex  overflow-hidden relative  '>
-            <div className='relative  2xl:left-64   '>
+            <div className='relative  2xl:left-64 opacity-80   '>
                 <Image  src={Bg} alt="black" /></div>
             <div  className=' flex  absolute 2xl:right-16 right-6 eight:right-10 top-8 lg:text-xl z-10 gap-9 text-base eight:text-lg lg:gap-14   text-white'>
             <button className='hover:text-yellow-300 ' onClick={()=>{refer.current.refering()}}>About Me</button>
