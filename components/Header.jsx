@@ -52,7 +52,7 @@ const Header = ({refer,refer2,refer3,refer4}) => {
             </div>
             <Menu toggle={toggle} setToggle={setToggle} refer={refer} refer2={refer2} refer3={refer3} refer4={refer4} />
         </div>
-        <div onClick={()=>{window.scrollTo({top: 0});console.log('check') }} className={ `${scroll?"block":"hidden"} fixed bottom-4 right-5 z-40 px-3 py-3 bg-white rounded-full`} >
+        <div onClick={()=>{window.scrollTo({top: 0,behavior:'smooth'});console.log('check') }} className={ `${scroll?"block":"hidden"} fixed bottom-4 right-5 z-40 px-3 py-3 bg-white rounded-full`} >
             <Image src={top} alt='arrow-up'/>
         </div>
         </>
