@@ -6,7 +6,7 @@ const Video = ({source,goto}) => {
     return (
         <Link href={goto} >
             <a target='_blank' >
-        <video   controls autoPlay muted  loop className={` md:max-w-[500px]`}  >
+        <video    autoPlay muted  loop className={` md:max-w-[500px]`}  >
         <source src={source} />
 
     </video>
