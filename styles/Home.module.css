@@ -10,3 +10,23 @@
     background-image: none;
   }
 }
+.portfolio{
+  background-image: url("../components/svgs//portback.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@keyframes animatedBackground {
+  from { background-position: 0 0; }
+  to { background-position: 100% 0; }
+}
+.portfoliobg{
+ 
+  background-image: url("../public/img/smog.jfif");
+  background-position: 0px 0px;
+  animation: animatedBackground 30s linear infinite ;
+  
+}
+.input1{
+  @apply outline-none py-[5px] pr-[100px] sm:pr-[120px]  bg-[#D7D7D7] border-b-[3px] border-black border-l-[3px] font-semibold text-[14px] pl-[14px] mb-[50px] text-[#000000] flex justify-center items-center;
+  
+}

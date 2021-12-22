@@ -5,7 +5,7 @@ import git from './svgs/rectgit.svg'
 import link from './svgs/rectlink.svg'
 import Containerhero from './Containerhero'
 import style from '../styles/Home.module.css'
-const Hero = ({refer,refer2}) => {
+const Hero = ({refer,refer2,refer3,refer4}) => {
     
     return (
         <>
@@ -29,8 +29,8 @@ const Hero = ({refer,refer2}) => {
             <div  className=' flex  absolute 2xl:right-16 right-6 eight:right-10 top-8 lg:text-xl z-10 gap-9 text-base eight:text-lg lg:gap-14   text-white'>
             <button className='hover:text-yellow-300 ' onClick={()=>{refer.current.refering()}}>About Me</button>
             <button className='hover:text-yellow-300 ' onClick={()=>{refer2.current.getrefer()}} >Skills</button>
-            <button className='hover:text-yellow-300 ' >Portfolio</button>
-            <button className='hover:bg-yellow-300 hover:text-white bg-white rounded-full cursor-pointer text-black px-4 py-2' >Contact Me</button>
+            <button className='hover:text-yellow-300 ' onClick={()=>{refer3.current.refering1()}} >Portfolio</button>
+            <button className='hover:bg-yellow-300 hover:text-white bg-white rounded-full cursor-pointer text-black px-4 py-2' onClick={()=>{refer4.current.refering4()}} >Contact Me</button>
                 </div>
             <img src="./img/aashan.png" alt="aashan" className='absolute top-24 lg:top-32 max-h-80  eight:max-h-96 left-1/3 2xl:left-2/3 opacity-95 ' />
                 
