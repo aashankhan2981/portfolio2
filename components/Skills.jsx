@@ -37,9 +37,9 @@ const Skills = forwardRef( (props,refer) => {
            
             </div>
             </div>
-            <div className='overflow-hidden mt-9  sm:mx-8 md:mx-20 eight:mx-32'>
+            <div className='overflow-hidden mt-9   sm:mx-8 md:mx-20 eight:mx-32'>
             <h2 className=' font-bold text-[28px] md:text-left text-center   '>OTHER SKILLS:</h2>
-            <div className='flex xl:flex-nowrap flex-wrap  md:space-x-24 px-[30px] lg:space-x-28  flex-col md:flex-row items-center justify-center mt-10'>
+            <div className='flex xl:flex-nowrap flex-wrap w-full  md:space-x-24 px-[30px] lg:space-x-28  flex-col md:flex-row items-center justify-center mt-10'>
            
             <Languages img={html} title={"C"} mt={" md:ml-24 lg:ml-28 "} />
             <Languages img={css} title={"C++"} />

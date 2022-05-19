@@ -32,7 +32,7 @@ const Hero = ({refer,refer2,refer3,refer4}) => {
             <button className='hover:text-yellow-300 ' onClick={()=>{refer3.current.refering1()}} >Portfolio</button>
             <button className='hover:bg-yellow-300 hover:text-white bg-white rounded-full cursor-pointer text-black px-4 py-2' onClick={()=>{refer4.current.refering4()}} >Contact Me</button>
                 </div>
-            <img src="./img/aashan.png" alt="aashan" className='absolute top-24 lg:top-32 max-h-80  eight:max-h-96 left-1/3 2xl:left-2/3 opacity-95 ' />
+            {/* <img src="./img/aashan.png" alt="aashan" className='absolute top-24 lg:top-32 max-h-80  eight:max-h-96 left-1/3 2xl:left-2/3 opacity-95 ' /> */}
                 
 
                 
